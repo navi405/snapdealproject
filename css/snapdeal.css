@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #eee;
+}
+#headerSection {
+    background: #e40046 ;
+    height: 100px;
+}
+#headerSection .marginleftandrightspace,
+.logoandcartsection>article ,#contentsection>article{
+    width: 90%;
+    margin: 0 auto;
+}
+.topmenu {
+    margin: 0;
+    background: #c7003d;
+    position: relative;
+    z-index: 1;
+    color: white;
+    height: 30px;
+    line-height: 28px;
+    font-size: 12px;
+}
+.leftpara {
+    width: 50%;
+    float: left;
+}
+.rightulmenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    float: right;
+    text-align: right;
+    background: #c7003d;
+    height: 30px;
+}
+.rightulmenu li {
+    display: inline-block;
+}
+.rightulmenu li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 12px;
+}
+.topmenu p {
+    margin: 0;
+    background: #c7003d;
+    position: relative;
+    z-index: 1;
+    color: white;
+    height: 30px;
+}
+.logoandcartsection>article .logo {
+    width: 17%;
+    float: left;
+    position: relative;
+    top: 18px;
+}
+.logoandcartsection>article .search {
+    width: 63%;
+    float: left;
+    line-height: 70px;
+}
+.logoandcartsection>article .cart {
+    width: 20%;
+    float: right;
+    line-height: 70px;
+}
+#search {
+    width: 70%;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 2px;
+    background: white;
+   
+}
+.searchtext {
+    padding: 8px 30px;
+    background: black;
+    color: #fff;
+    border-radius: 0px 3px 3px 0px;
+    margin: 0px -5px;
+    position: relative;
+    top: 1px;
+}
+#insidediv {
+    display: none;
+}
+.rightnavigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.rightnavigation li {
+    display: inline-block;
+}
+.rightnavigation li a {
+    padding: 26px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.fa-shopping-cart {
+    font-size: 24px;
+    margin-left: 7px;
+}
+.rightnavigation li:nth-child(2):hover {
+    background: #111;
+    display: inline-block;
+}
+.insidelist li {
+    padding: 0;
+}
+#contentsection {
+    background: #eee;
+    height: 100vh;
+}
+.contentleft {
+    width: 20%;
+    float: left;
+    background: white;
+}
+.contentmiddle {
+    width: 56%;
+    float: left;
+    background: white;
+    margin: 0 2%;
+}
+.contentright {
+    width: 20%;
+    float: right;
+    background: white;
+}
+#contentsection>article {
+    margin-top: 50px;
+}
+.menulist {
+    padding: 15px;
+    margin: 0;
+    list-style: none;
+}
+.menulist li a {
+    color: #111;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: lighter;
+    width: 100%;
+}
+.contentleft h5 {
+    padding: 15px;
+    margin: 0;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.menulist li a:hover {
+    border: 3px solid red;
+    background: #eee;
+    transition: ease-in-out all 0.5s;
+}
+.all_offers_icons {
+    background: url('../images/Discount_Right_icon-f5105.png');
+    height: 37px;
+    width: 37px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: cover;/*--important---*/
+}
+.mobile_tablets_icons {
+    background: url('../images/30x30mobile2.png');
+    height: 37px;
+    width: 37px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: cover;/*--important---*/
+}
+.electronics_icons {
+    background: url('../images/Electronic-6212c.png');
+    height: 37px;
+    width: 37px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: cover;/*--important---*/
+}
+.computers_gaming_icons {
+    background: url('../images/ComputerGaming-a02cf.png');
+    height: 37px;
+    width: 37px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: cover;/*--important---*/
+}
+.home_kitchen_icons {
+    background: url('../images/Homekitchenfurnishing-3eda1.jpg');
+    height: 37px;
+    width: 37px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: cover;/*--important---*/
+}
